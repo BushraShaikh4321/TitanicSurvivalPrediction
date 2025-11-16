@@ -1,30 +1,26 @@
-# Titanic Survival Prediction 🚢
+# Titanic Survival Prediction
 
-This project uses machine learning to predict whether a passenger survived the Titanic disaster based on features like age, ticket class, and gender.
+This is a small machine learning project using the Titanic dataset to predict whether a passenger survived or not.
 
-### 🧠 Model Used
-- Logistic Regression (or whatever you used)
-- Trained using scikit-learn
+## Notebook
 
-### 📌 Notebook
-All code is in the main Jupyter Notebook:
-- `Titanic.ipynb`
+All the code is in:
 
-### 🔍 Features Used
-- Age  
-- Sex  
-- Passenger class  
-- Fare  
-- SibSp / Parch
+- `TitanicSurvivalPrediction.ipynb`
 
-### 🎯 Project Goals
-- Clean and preprocess the dataset  
-- Train a classification model  
-- Evaluate accuracy  
-- Visualize important features
+The notebook was originally created in Google Colab.
 
-### 📊 Results
-(Add accuracy score once you know it.)
+## Tools and libraries
 
-### 📝 How to Run
-Just open the notebook in Google Colab:
+- Python
+- pandas
+- numpy
+- scikit-learn
+- matplotlib / seaborn (for visualisation)
+
+## What this project does
+
+- Loads and cleans the Titanic dataset
+- Explores the data with basic visualisations
+- Trains a classification model to predict survival
+- Evaluates the model with accuracy and other metrics
